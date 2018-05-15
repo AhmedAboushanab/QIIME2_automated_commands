@@ -38,4 +38,4 @@ QIIME2 commands run sequentially:
 
   export rarefied abundance table (.biom), convert to tab-delimited (.txt)
   export representative sequences 
- 
+
