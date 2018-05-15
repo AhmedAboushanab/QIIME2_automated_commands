@@ -24,20 +24,20 @@ Imports FASTA representative set of sequences (.fasta) to QIIME2 as an artefact 
 Inputs: abundance table (.qza), representative sequences (.qza), mapping file (.txt), maximum sampling depth (#), and rarefaction sampling depth (#)
  <br />
 QIIME2 commands run sequentially:  <br />
-  &npsp; &npsp; qiime diversity alpha-rarefaction <br />
-  &npsp; &npsp; qiime feature-table rarefy <br />
-  &npsp; &npsp; qiime alignment mafft  <br />
-  &npsp; &npsp; qiime phylogeny fasttree  <br />
-  &npsp; &npsp; qiime phylogeny midpoint-root (necessary for phylogenetic beta diversity)  <br />
-  &npsp; &npsp; qiime diversity beta-phylogenetic  <br />
-  &npsp; &npsp; qiime diversity pcoa  <br />
-  &npsp; &npsp; qiime emperor plot  <br />
+  &nbsp; qiime diversity alpha-rarefaction <br />
+  &nbsp; qiime feature-table rarefy <br />
+  &nbsp; qiime alignment mafft  <br />
+  &nbsp; qiime phylogeny fasttree  <br />
+  &nbsp; qiime phylogeny midpoint-root (necessary for phylogenetic beta diversity)  <br />
+  &nbsp; qiime diversity beta-phylogenetic  <br />
+  &nbsp; qiime diversity pcoa  <br />
+  &nbsp; qiime emperor plot  <br />
   
-  &npsp; &npsp; export rarefied abundance table (.biom), convert to tab-delimited (.txt)  <br />
-  &npsp; &npsp; export representative sequences 
+  &nbsp; export rarefied abundance table (.biom), convert to tab-delimited (.txt)  <br />
+  &nbsp; export representative sequences 
 
 ## qiime_files_convert_2.cpp
 
-  &npsp; &npsp; export rarefied abundance table (.biom), convert to tab-delimited (.txt) <br />
-  &npsp; &npsp; export representative sequences 
+  &nbsp; export rarefied abundance table (.biom), convert to tab-delimited (.txt) <br />
+  &nbsp; export representative sequences 
 
